@@ -1,0 +1,9 @@
+version: 1
+name: Data_Collection-Cleaning
+description: Dataset collection and cleaning pipeline with NVIDIA AI Workbench compatibility
+container:
+  base: python-basic
+  python: "3.10"
+  dependencies:
+    pip:
+      - -r requirements.txt
